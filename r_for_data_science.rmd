@@ -55,3 +55,8 @@ ggplot(data = mpg) +
 ```
 
 Class and drv don't contain numerical data, they have catergorical data. It just tells where both categories meet. 
+
+```{r}
+# github test
+```
+
