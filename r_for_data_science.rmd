@@ -276,3 +276,30 @@ coord_map can use a variety of projections.
 ```
 
 Vehicles with low cty mileage have a low hwy mileage and the opposite is also true. coord_fixed makes the x axis narrower. geom_abline adds a best fit line to the plot.
+
+
+# Chapter 2: Workflow: Basics
+
+```{r}
+# 1. Why does this code not work?
+my_variable <- 10
+my_varıable
+#> Error in eval(expr, envir, enclos): #> object 'my_varıable' not found
+```
+
+When calling the variable, the 'i' was replaced by a similar symbol.
+
+```{r}
+# 2. Tweak each of the following R commands so that they run correctly:
+   library(tidyverse)
+       ggplot(data = mpg) +
+         geom_point(mapping = aes(x = displ, y = hwy))
+filter(mpg, cyl == 8)
+filter(diamonds, carat > 3)
+```
+
+```{r}
+# 3. Press Alt-Shift-K. What happens? How can you get to the same place using the menus?
+```
+
+A keyboard shortcut quick reference pops up. You can also find it in the tools menu.
